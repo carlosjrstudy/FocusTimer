@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Focus Timer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <div class="timer">
+      <div class="clock">
+        <span class="hour" id="hours">25</span>
+        <span>:</span>
+        <span class="minutes" id="minutes">00</span>
+      </div>
+      <div class="options">
+        <img src="assets/play.svg" alt="play button" id="play">
+        <img src="assets/stop.svg" alt="play button" id="stop">
+        <img src="assets/plus.svg" alt="play button" id="plus">
+        <img src="assets/minus.svg" alt="play button" id="minus">
+      </div>
+    </div>
+
+    <div class="cards">
+      <div class="line">
+        <div class="card" id="tree">
+          <img src="assets/tree.svg" alt="florest sound">
+        </div>
+        <div class="card" id="cloud">
+          <img src="assets/clound.svg" alt="cloud sound">
+        </div>
+      </div>
+      <div class="line">
+        <div class="card" id="store">
+          <img src="assets/store.svg" alt="store sound">
+        </div>
+        <div class="card" id="fire">
+          <img src="assets/fire.svg" alt="fire sound">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
